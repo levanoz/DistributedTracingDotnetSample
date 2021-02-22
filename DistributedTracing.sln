@@ -15,6 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceB.Api", "ServiceB\Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceC.Api", "ServiceC\ServiceC.Api\ServiceC.Api.csproj", "{BB0DE69F-9629-4827-BACC-5C6FE8DF3A7A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{7AEFF5B4-E115-4DE2-9052-AC255D4AAAB5}"
+	ProjectSection(SolutionItems) = preProject
+		Docker\docker-compose.yml = Docker\docker-compose.yml
+		Docker\mssql-configure-db.sh = Docker\mssql-configure-db.sh
+		Docker\mssql-entrypoint.sh = Docker\mssql-entrypoint.sh
+		Docker\mssql-setup.sql = Docker\mssql-setup.sql
+		Docker\opentelemetry-collector-config.yaml = Docker\opentelemetry-collector-config.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
